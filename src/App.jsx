@@ -1,8 +1,33 @@
+// react particles
+import { useCallback } from "react";
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+import particlesOptions from "../particles.json";
+
+// react components
+import TheHeader from "./layout/TheHeader";
+import AboutMe from "./layout/AboutMe";
+import MyProjects from "./layout/MyProjects";
+import MySkills from "./layout/MySkills";
+import MyExperience from "./layout/MyExperience";
+import TheFooter from "./layout/TheFooter";
+
 function App() {
+  const particlesInit = useCallback((main) => {
+    loadFull(main);
+  }, [])
   return (
-    <>
-      <h1 className="text-purple-400 text-center">Hello there</h1>
-    </>
+    <div className="font-nunito text-slate-300 bg-slate-900">
+       <Particles options={particlesOptions} init={particlesInit} />
+      <TheHeader></TheHeader>
+      <main>
+        <AboutMe></AboutMe>
+        <MyProjects></MyProjects>
+        <MySkills></MySkills>
+        <MyExperience></MyExperience>
+      </main>
+      <TheFooter></TheFooter>
+    </div>
   );
 }
 
