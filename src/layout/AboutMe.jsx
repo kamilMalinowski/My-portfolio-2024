@@ -1,5 +1,4 @@
-
-import portrait from "../assets/portrait.jpg"
+import portrait from "../assets/me.png";
 
 function AboutMe() {
   return (
@@ -10,18 +9,16 @@ function AboutMe() {
             Kamil Malinowski
           </h2>
           <h3 className="text-lg text-secondary md:text-2xl">
-            Junior Frontend Developer
+            Frontend Developer
           </h3>
-          <p className="py-4 text-sm opacity-80 leading-6">
-            I have almost <span className="text-secondary">2 years</span> of
+          <p className="py-4  opacity-80 leading-6">
+            I have almost <span className="text-secondary">3 years</span> of
             experience in frontend, which I gained in the e-commerce industry
             while developing online shops. I am constantly expanding my
             knowledge and skills, improving my technology stack. In addition to
-            frontend, I also feel good at
-            <span className="text-secondary">
-              computer graphics and UX/UI
-            </span>
-            design (good knowledge of the Adobe suite - PS, AI, XD and{" "}
+            frontend, I also feel good at{" "}
+            <span className="text-secondary">computer graphics and UX/UI</span>
+            {" "}design (good knowledge of the Adobe suite - PS, AI, XD and{" "}
             <span className="text-secondary">Figma</span>), which allow me to
             understand better the aesthetic and usability aspects of websites
             and applications.
@@ -32,21 +29,21 @@ function AboutMe() {
           <img
             width={80}
             height={110}
-            className="w-20  rounded-lg shadow-lg saturate-0  h-auto mix-blend-color-burn "
+            className="w-20 border-secondary border rounded-2xl shadow-lg h-auto "
             src={portrait}
             alt="Kamil Malinowski portrait"
           />
           <img
             width={144}
             height={200}
-            className="w-28 md:w-36 rounded-lg h-auto shadow-lg border border-b-4 border-secondary"
+            className="w-36 md:w-80 rounded-3xl h-auto shadow-lg border  border-secondary"
             src={portrait}
             alt="Kamil Malinowski portrait"
           />
           <img
             width={80}
             height={110}
-            className="w-20 rounded-lg h-auto shadow-lg  saturate-0 mix-blend-color-burn "
+            className="w-20 border-secondary border rounded-2xl h-auto shadow-lg "
             src={portrait}
             alt="Kamil Malinowski portrait"
           />

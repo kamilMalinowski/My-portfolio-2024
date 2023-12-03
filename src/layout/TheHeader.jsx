@@ -1,13 +1,13 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 function TheHeader() {
   return (
-    <header className="bg-code-pattern shadow-lg relative z-10">
+    <header className="bg-gray-900/50 shadow-lg relative z-10">
       <nav className="max-w-6xl mx-auto p-5">
         <ul className="flex justify-between items-center">
           <li>
             <a
               className="flex items-center saturate-100 gap-2 hover:saturate-50"
-              href="https://www.kamil--m.com/"
+              href="https://my-portfolio-2024.netlify.app/"
             >
               <svg
                 className="w-8 h-8 "
@@ -26,7 +26,7 @@ function TheHeader() {
               </svg>
 
               <h1 className="text-primary font-medium md:block hidden">
-                kamil--m.com
+                Kamil Malinowski
               </h1>
             </a>
           </li>

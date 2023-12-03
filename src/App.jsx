@@ -17,7 +17,7 @@ function App() {
     loadFull(main);
   }, [])
   return (
-    <div className="font-nunito text-slate-300 bg-slate-900">
+    <div className="font-nunito text-slate-300 bg-gray-950 text-base">
        <Particles options={particlesOptions} init={particlesInit} />
       <TheHeader></TheHeader>
       <main>

@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        nunito: ['Nunito','sans-serif']
+        nunito: ['Nunito Sans','sans-serif']
       },
       colors: {
         primary: '#A47DE4',

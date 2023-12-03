@@ -1,14 +1,14 @@
-import { DiHtml5, DiCss3, DiJavascript, DiPhp } from "react-icons/di";
-import { FaVuejs, FaReact, FaAngular } from "react-icons/fa";
+import { DiHtml5, DiCss3, DiJavascript } from "react-icons/di";
+import { FaVuejs, FaReact } from "react-icons/fa";
 import {
   SiTailwindcss,
-  SiBootstrap,
-  SiMysql,
+  // SiBootstrap,
+  // SiMysql,
   SiAdobeillustrator,
   SiAdobephotoshop,
   SiFigma,
   SiAdobexd,
-  SiVisualstudiocode,
+  // SiVisualstudiocode,
 } from "react-icons/si";
 
 function MySkills() {
@@ -18,7 +18,7 @@ function MySkills() {
         <h3 className="text-lg text-secondary text-center md:text-2xl">
           My skills & tools
         </h3>
-        <ul className="grid justify-center items-center mt-4 mb-8 gap-12 grid-cols-3 md:grid-cols-5 lg:grid-cols-10">
+        <ul className="grid justify-center items-center mt-4 mb-8 gap-12 grid-cols-3 md:grid-cols-5">
           <li>
             <DiHtml5 className="w-12 h-12 md:w-16 md:h-16 fill-secondary mx-auto lg:w-20 lg:h-20" />
           </li>
@@ -34,26 +34,13 @@ function MySkills() {
           <li>
             <FaReact className="w-12 h-12 md:w-16 md:h-16 fill-secondary mx-auto lg:w-20 lg:h-20" />
           </li>
-          <li>
-            <FaAngular className="w-12 h-12 md:w-16 md:h-16 fill-secondary mx-auto lg:w-20 lg:h-20" />
-          </li>
+      
           <li>
             <SiTailwindcss className="w-12 h-12 md:w-16 md:h-16 fill-secondary mx-auto lg:w-20 lg:h-20" />
-          </li>
-          <li>
-            <SiBootstrap className="w-12 h-12 md:w-16 md:h-16 fill-secondary mx-auto lg:w-20 lg:h-20" />
-          </li>
-          <li>
-            <SiMysql className="w-12 h-12 md:w-16 md:h-16 fill-secondary mx-auto lg:w-20 lg:h-20" />
-          </li>
-          <li>
-            <DiPhp className="w-12 h-12 md:w-16 md:h-16 fill-secondary mx-auto lg:w-20 lg:h-20" />
-          </li>
-        </ul>
-        <ul className="mx-auto grid justify-center items-center gap-12 grid-cols-3 md:grid-cols-5">
-          <li className="max-w-max">
-            <SiVisualstudiocode className="w-12 h-12 md:w-16 md:h-16 fill-secondary mx-auto lg:w-20 lg:h-20" />
-          </li>
+          </li>       
+   
+       
+
           <li className="max-w-max">
             <SiAdobeillustrator className="w-12 h-12 md:w-16 md:h-16 fill-secondary mx-auto lg:w-20 lg:h-20" />
           </li>
